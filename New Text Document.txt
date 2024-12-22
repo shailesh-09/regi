@@ -1,0 +1,9 @@
+1. docker build -t registration-form .
+
+2. docker run -d -p 8090:8090 registration-form
+
+3. docker login
+
+4. docker tag registration-form shailesh0902/registration-form
+
+5. docker push shailesh0902/registration-form
